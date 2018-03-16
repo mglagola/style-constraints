@@ -1,0 +1,30 @@
+{
+  "name": "style-constraints",
+  "version": "0.0.1",
+  "description": "Helps make media query like functionality easier using raw js data structures",
+  "author": {
+    "name": "Mark Glagola"
+  },
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-jest": "^21.14.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-to-editorconfig": "^1.2.0",
+    "jest": "^22.4.2"
+  },
+  "peerDependencies": {
+    "lodash": "*"
+  },
+  "dependencies": {
+    "yup": "^0.24.1"
+  }
+}
