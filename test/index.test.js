@@ -1,8 +1,8 @@
 const mediaStyle = require('../lib');
 
-const defaultMedia = () => {
+const defaultMedia = (opts = {}) => {
     const deviceSize = { width: 330, height: 660 };
-    return mediaStyle(deviceSize);
+    return mediaStyle(deviceSize, opts);
 };
 
 test('complex when chain', () => {
@@ -207,4 +207,16 @@ test('throw on wrong data structure 8', () => {
             style: { fontSize: 100 },
         }]);
     }).toThrow();
+});
+
+test('should not throw when manually skipping validation check', () => {
+    const media = defaultMedia({ skipValidation: true });
+    const res =         media([{
+        whenAll: 'gt',
+        whenAny: ['lt'],
+        width: 400,
+        height: 700,
+        style: { fontSize: 100 },
+    }]);
+    expect(typeof res === 'object');
 });
