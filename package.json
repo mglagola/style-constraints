@@ -1,6 +1,6 @@
 {
   "name": "style-constraints",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helps make media query like functionality easier using raw js data structures",
   "homepage": "https://github.com/mglagola/style-constraints",
   "author": {
