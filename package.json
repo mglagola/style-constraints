@@ -1,12 +1,13 @@
 {
   "name": "style-constraints",
-  "version": "0.0.4",
-  "description": "Helps make media query like functionality easier using raw js data structures",
+  "version": "0.1.0",
+  "description": "Small library that mimics some of the functionality of css media queries using javascript",
   "homepage": "https://github.com/mglagola/style-constraints",
+  "bugs": "https://github.com/mglagola/style-constraints/issues",
   "author": {
     "name": "Mark Glagola"
   },
-  "license": "ISC",
+  "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
     "test": "jest"
