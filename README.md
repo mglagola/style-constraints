@@ -81,14 +81,5 @@ export default onResize(Rows);
 
 ## Demos
 
-* [React Native](#react-native-Demo)
+* [React Native](https://github.com/mglagola/style-constraints/tree/master/examples/react-native)
 * React Web - coming soon.
-
-## React Native Demo
-
-Check out [snack.expo.io/@mglagola/style-constraints-demo](https://snack.expo.io/@mglagola/style-constraints-demo)
-
-## React Web Demo
-
-Coming soon
-
