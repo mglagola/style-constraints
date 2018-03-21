@@ -8,9 +8,6 @@
   },
   "license": "ISC",
   "main": "./lib/index.js",
-  "engines": {
-    "node": ">=9.0.0"
-  },
   "scripts": {
     "test": "jest"
   },
