@@ -1,6 +1,6 @@
 # Style Constraints
 
-Documentation coming soon
+The goal of style constraints is to mimic some of the functionality of [css media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) using javascript.
 
 ## Installation
 
@@ -9,6 +9,10 @@ Install both `style-constraints` and `lodash` as `lodash` is a `peerDependency`.
 ```
 npm install --save style-constraints lodash
 ```
+
+## Documentation
+
+Coming soon.
 
 ## Usage Example
 
