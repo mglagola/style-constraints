@@ -4,6 +4,8 @@ The goal of style constraints is to mimic some of the functionality of [css medi
 
 [![npm](https://img.shields.io/npm/v/style-constraints.svg)](https://npm.im/style-constraints) [![travis](https://travis-ci.org/mglagola/style-constraints.svg?branch=master)](https://travis-ci.org/mglagola/style-constraints)
 
+_**Note:** This is in **beta** and the API may change before `v1.0.0` release._
+
 ## Installation
 
 Install both `style-constraints` and `lodash` as `lodash` is a `peerDependency`.
