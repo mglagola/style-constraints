@@ -1,6 +1,15 @@
 {
   "name": "style-constraints",
   "version": "0.1.0",
+  "source": [
+    "lib/index.js"
+  ],
+  "main": "./dist/index.js",
+  "module": "dist/index.m.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
   "description": "Small library that mimics some of the functionality of css media queries using javascript",
   "homepage": "https://github.com/mglagola/style-constraints",
   "bugs": "https://github.com/mglagola/style-constraints/issues",
@@ -8,8 +17,8 @@
     "name": "Mark Glagola"
   },
   "license": "MIT",
-  "main": "./lib/index.js",
   "scripts": {
+    "prepare": "microbundle",
     "test": "jest"
   },
   "devDependencies": {
@@ -18,10 +27,11 @@
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-to-editorconfig": "^1.2.0",
-    "jest": "^22.4.2"
+    "jest": "^22.4.2",
+    "microbundle": "^0.4.4"
   },
   "peerDependencies": {
-    "lodash": "*"
+    "lodash": "^4.17.5"
   },
   "dependencies": {
     "yup": "^0.24.1"

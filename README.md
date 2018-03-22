@@ -2,6 +2,8 @@
 
 The goal of style constraints is to mimic some of the functionality of [css media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) using javascript.
 
+[![npm](https://img.shields.io/npm/v/style-constraints.svg)](https://npm.im/style-constraints) [![travis](https://travis-ci.org/mglagola/style-constraints.svg?branch=master)](https://travis-ci.org/mglagola/style-constraints)
+
 ## Installation
 
 Install both `style-constraints` and `lodash` as `lodash` is a `peerDependency`.
