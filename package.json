@@ -4,11 +4,9 @@
   "source": [
     "lib/index.js"
   ],
-  "main": "./dist/index.js",
-  "module": "dist/index.m.js",
+  "main": "./lib/index.js",
   "files": [
-    "index.js",
-    "dist"
+    "lib"
   ],
   "description": "Small library that mimics some of the functionality of css media queries using javascript",
   "homepage": "https://github.com/mglagola/style-constraints",
@@ -18,7 +16,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepare": "microbundle",
     "test": "jest"
   },
   "devDependencies": {
@@ -27,8 +24,7 @@
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-to-editorconfig": "^1.2.0",
-    "jest": "^22.4.2",
-    "microbundle": "^0.4.4"
+    "jest": "^22.4.2"
   },
   "peerDependencies": {
     "lodash": "^4.17.5"
