@@ -14,7 +14,8 @@
       "jest/globals": true
     },
     "parserOptions": {
-      "ecmaVersion": 2017
+      "ecmaVersion": 2017,
+      "sourceType": "module"
     },
     "globals" : {
       "__DEV__"      : false,

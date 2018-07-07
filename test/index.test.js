@@ -1,4 +1,4 @@
-const mediaStyle = require('../lib');
+const mediaStyle = require('../dist');
 
 const defaultMedia = (opts = {}) => {
     const deviceSize = { width: 330, height: 660 };

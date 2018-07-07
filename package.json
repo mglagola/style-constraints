@@ -7,7 +7,6 @@
   "main": "./dist/index.js",
   "module": "dist/index.m.js",
   "files": [
-    "index.js",
     "dist"
   ],
   "description": "Small library that mimics some of the functionality of css media queries using javascript",
@@ -22,18 +21,18 @@
     "test": "jest"
   },
   "devDependencies": {
-    "eslint": "^4.1.1",
-    "eslint-plugin-jest": "^21.14.1",
-    "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-promise": "^3.5.0",
+    "eslint": "^5.0.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
     "eslint-to-editorconfig": "^1.2.0",
-    "jest": "^22.4.2",
-    "microbundle": "^0.4.4"
+    "jest": "^23.3.0",
+    "microbundle": "^0.5.1"
   },
   "peerDependencies": {
     "lodash": "^4.17.5"
   },
   "dependencies": {
-    "yup": "^0.24.1"
+    "yup": "^0.25.1"
   }
 }
