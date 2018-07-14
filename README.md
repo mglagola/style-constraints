@@ -1,10 +1,10 @@
 # Style Constraints
 
+_**Note:** This is in **beta** and the API may change before `v1.0.0` release. Examples and docs may be outdated as well._
+
 The goal of style constraints is to mimic some of the functionality of [css media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) using javascript.
 
 [![npm](https://img.shields.io/npm/v/style-constraints.svg)](https://npm.im/style-constraints) [![travis](https://travis-ci.org/mglagola/style-constraints.svg?branch=master)](https://travis-ci.org/mglagola/style-constraints)
-
-_**Note:** This is in **beta** and the API may change before `v1.0.0` release._
 
 ## Installation
 
@@ -42,10 +42,10 @@ const Rows = ({
             <Text style={select(sc.text)}>Row 2</Text>
             <Text style={select(sc.text)}>Row 3</Text>
             <Text style={select(sc.text)}>Row 4</Text>
-            <Text style={select([sc.text, sc.moreText])}>Row 5</Text>
-            <Text style={select([sc.text, sc.moreText])}>Row 6</Text>
-            <Text style={select([sc.text, sc.moreText])}>Row 7</Text>
-            <Text style={select([sc.text, sc.moreText])}>Row 8</Text>
+            <Text style={select(sc.text, sc.moreText)}>Row 5</Text>
+            <Text style={select(sc.text, sc.moreText)}>Row 6</Text>
+            <Text style={select(sc.text, sc.moreText)}>Row 7</Text>
+            <Text style={select(sc.text, sc.moreText)}>Row 8</Text>
         </View>
     );
 };

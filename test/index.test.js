@@ -94,7 +94,7 @@ test('2d arrays should flatten', () => {
         width: 1000,
         style: { color: 'white' },
     }];
-    const [res1, res2, res3] = media([style1, style2]);
+    const [res1, res2, res3] = media(style1, style2);
     expect(res1).toEqual({ backgroundColor: 'white' });
     expect(res2).toEqual({ fontSize: 100 });
     expect(res3).toEqual({ color: 'white' });

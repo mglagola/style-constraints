@@ -1,11 +1,10 @@
 {
   "name": "style-constraints",
-  "version": "0.1.2",
-  "source": [
-    "lib/index.js"
-  ],
-  "main": "./dist/index.js",
+  "version": "0.2.0",
+  "source": "lib/index.js",
+  "main": "dist/index.js",
   "module": "dist/index.m.js",
+  "umd:main": "dist/index.umd.js",
   "files": [
     "dist"
   ],
