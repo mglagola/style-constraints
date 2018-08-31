@@ -17,7 +17,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "microbundle",
-    "test": "jest"
+    "test": "npm run prepare && jest"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
