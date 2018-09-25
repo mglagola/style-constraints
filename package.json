@@ -1,6 +1,6 @@
 {
   "name": "style-constraints",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "source": "lib/index.js",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
@@ -26,12 +26,12 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-to-editorconfig": "^1.2.0",
     "jest": "^23.3.0",
-    "microbundle": "^0.5.1"
+    "microbundle": "^0.6.0"
   },
   "peerDependencies": {
     "lodash": "^4.17.5"
   },
   "dependencies": {
-    "yup": "^0.25.1"
+    "yup": "^0.26.6"
   }
 }
