@@ -14,7 +14,7 @@
       "jest/globals": true
     },
     "parserOptions": {
-      "ecmaVersion": 2017,
+      "ecmaVersion": 2018,
       "sourceType": "module"
     },
     "globals" : {
@@ -38,7 +38,7 @@
       "max-len"                      : [2, 120, 2],
       "object-curly-spacing"         : [2, "always"],
       "semi"                         : [2, "always"],
-      "indent"                       : ["error", 4],
+      "indent"                       : 0,
       "comma-dangle"                 : ["error", "always-multiline"],
       "no-console"                   : 0,
       "no-process-exit"              : 0,
