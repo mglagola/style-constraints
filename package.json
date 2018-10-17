@@ -1,6 +1,6 @@
 {
   "name": "style-constraints",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "source": "lib/index.js",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
